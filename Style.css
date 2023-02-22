@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+  text-align: center;
+}
+
+#cont-stopwatch {
+  display: block;
+  margin: 5rem;
+  margin-top: 10rem;
+  font-size: 5rem;
+  font-weight: bold;
+  padding: 1rem;
+  border: 5px solid black;
+  border-radius: 15px;
+}
+
+#cont-buttons {
+  display: inline-block;
+  margin-top: 3rem;
+  font-size: 5rem;
+  font-weight: bold;
+  padding: 1rem;
+  border: 5px solid black;
+  border-radius: 15px;
+}
+
+#cont-buttons img {
+  width: 5rem;
+  height: 5rem;
+  cursor: pointer;
+}
